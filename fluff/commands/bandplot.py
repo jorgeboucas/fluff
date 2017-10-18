@@ -4,6 +4,9 @@ import os
 import sys
 import pysam
 
+import matplotlib
+matplotlib.use('Agg')
+
 ### External imports ###
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
