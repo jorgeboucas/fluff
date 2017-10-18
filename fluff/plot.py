@@ -2,6 +2,9 @@ import os
 import re
 import sys
 
+import matplotlib
+matplotlib.use('Agg')
+
 import matplotlib.gridspec as gridspec
 import matplotlib.pyplot as plt
 import numpy as np
